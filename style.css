@@ -1,0 +1,173 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding-top: 50px;
+}
+.navbar {
+    height: 50px;
+    background-color: #272727;
+
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    width: 100%;
+    z-index: 3;
+}
+
+
+/* Logo */
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 28px;
+}
+
+/* Left Nav */
+.nav-left {
+    display: flex;
+    gap: 22px;
+    margin-left: 28px;
+}
+
+.nav-left a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Right Nav */
+.nav-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.premium {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: bold;
+    font-size: 13px;
+}
+#pre{
+    color: whitesmoke;
+}
+.fa-crown{
+    color: gold;
+}
+.icon {
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+#mylist,
+#profilelogo {
+    height: 30px;
+}
+
+#profilelogo {
+    border-radius: 50%;
+}
+.box {
+    height: 700px;
+    width: 100%;
+
+    background-image: url("./image/onepiece.png");
+    background-size: cover;
+}
+
+.cards{
+    height: 1000px;
+    background-color: black;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.innercards{
+    margin-top: 50px;
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+}
+#i1{
+    background-image: url("./image/bleach.png");
+    background-size: cover;
+}
+#i2{
+    background-image: url("./image/demon.png");
+    background-size: cover;
+}
+#i3{
+    background-image: url("./image/dragon.png");
+    background-size: cover;
+}
+#i4{
+    background-image: url("./image/g.png");
+    background-size: cover;
+}
+#i5{
+    background-image: url("./image/hero.png");
+    background-size: cover;
+}
+#i6{
+    background-image: url("./image/jujusu.png"); 
+    background-size: cover;
+}
+#i7{
+    background-image: url("./image/naruto.png");
+    background-size: cover;
+}
+#i8{
+    background-image: url("./image/onepice.png");
+    background-size: cover;
+}
+#sinle1{
+    height: 500px;
+    width: 1000px;
+    background-image: url("./image/x.png");
+    background-size: cover;
+    position: relative;
+    left: 250px;
+    z-index: 0;
+}
+#sinle2{
+    height: 500px;
+    width: 1000px;
+    background-image: url("./image/y.png");
+    background-size: cover;
+    position: relative;
+    left: 250px;
+}
+.foot{
+    background-color: orange;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+
+    color: whitesmoke;
+    position: relative;
+    left: 250px;
+    bottom: 0;
+}
+.footer{
+    background-color: orange;
+}
+.foot >p{
+    color: black;
+    background-color: orange;
+}
